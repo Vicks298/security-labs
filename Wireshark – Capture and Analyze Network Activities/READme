@@ -1,0 +1,32 @@
+# Wireshark: Network Traffic Capture & Analysis
+
+This project demonstrates how to capture, filter, and analyze network traffic using Wireshark. The focus was on identifying normal network behavior and detecting potential anomalies.
+
+## Objectives
+- Capture live network traffic from a simulated environment.  
+- Apply display filters to isolate specific protocols (HTTP, DNS, TCP, ICMP).  
+- Analyze packet-level communication between clients and servers.  
+- Detect suspicious patterns such as abnormal connections or data exfiltration attempts.  
+
+## Process
+1. Set up a controlled network environment in Packet Tracer / local VM.  
+2. Generated traffic (ping, web browsing, DNS queries).  
+3. Captured packets using Wireshark.  
+4. Applied protocol filters to highlight key communication.  
+5. Documented abnormal patterns and their potential security implications.  
+
+## Deliverables
+- Screenshots of captured packets.  
+- Analysis report highlighting findings.  
+- Suggested remediation for suspicious traffic.  
+
+## Skills Demonstrated
+- Network packet analysis  
+- Protocol filtering (TCP, UDP, ICMP, HTTP, DNS)  
+- Identifying suspicious or malicious traffic  
+- Basic incident detection using network forensics  
+
+## Tools Used
+- Wireshark  
+- Cisco Packet Tracer / Virtual Machines  
+- Windows/Linux terminal utilities (ping, traceroute, nslookup)  
